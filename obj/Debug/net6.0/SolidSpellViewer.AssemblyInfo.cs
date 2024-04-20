@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolidSpellViewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab3b0bd3fa66ea4456a26c8434afda41f961afaa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e13f3d6b5fe772629966c60b984794fdafa6c7ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolidSpellViewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolidSpellViewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

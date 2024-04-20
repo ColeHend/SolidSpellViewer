@@ -1,12 +1,64 @@
 $primary: #323232;
+$base: #282828;
 $text: #f0f0f0;
-
 .mainBar {
     display: flex;
     flex-direction: column;
     width: 100%;
     height: 13vh;
     background-color: $primary;
+}
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2em;
+}
+.portal {
+    position: absolute;
+    z-index: 2;
+    color: $text;
+    width: 150px;
+    // height: 50px;
+    background-color: $primary;
+    border: 1px solid $text;
+    border-radius: 5px;
+    top: 8vh;
+    right: 2em;
+    ul {
+        padding-left: 10px;
+        padding-right: 20px;
+        li {
+            list-style: none;
+            padding: 10px 5px;
+            &:hover {
+                background-color: $base;
+                color: $text;
+                cursor: pointer;
+                border-radius: 30px;
+                text-align: center;
+            }
+        }
+    }
+}
+.imageButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+    padding: 10px;
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    &:hover {
+        cursor: pointer;
+    }
+    
+
 }
 .header {
     width: 50%;

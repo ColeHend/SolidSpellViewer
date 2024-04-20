@@ -22,7 +22,11 @@ const Spells:Component = () => {
     });
 
     effect(() => {
-        setTotalPages(Math.ceil((spells?.getAllSpells().length ?? 1) / selectedItemsPerPage()));
+        const totalPages = Math.ceil((spells?.getAllSpells().length ?? 1) / selectedItemsPerPage());
+        setTotalPages(totalPages);
+        if (totalPages < currentPage()) {
+            setCurrentPage(totalPages)
+        }
     });
     
     return (
