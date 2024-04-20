@@ -1,0 +1,12 @@
+.mainBody {
+    margin: 0 auto;
+    background-color: #282828;
+    color: #f0f0f0;
+    width: 80%;
+    height: max-content;
+    border-radius: 10px;
+    h1 {
+        text-align: center;
+        padding-top: 1em;
+    }
+}
