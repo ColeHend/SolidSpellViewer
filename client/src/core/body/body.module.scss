@@ -1,7 +1,10 @@
+$base: #282828;
+$text: #f0f0f0;
+
 .mainBody {
     margin: 0 auto;
-    background-color: #282828;
-    color: #f0f0f0;
+    background-color: $base;
+    color: $text;
     width: 80%;
     height: max-content;
     border-radius: 10px;

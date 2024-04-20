@@ -11,11 +11,9 @@ const DataContext = createContext<DataService>();
 export function DataProvider(props: any) {
   const [spells, setSpells] = createSignal<Spell[]>([]);
   httpClient.get<Spell[]>("http://localhost:5000/api/Spells/GetAll").subscribe(spells => {
-    console.log(spells);
-    
     setSpells(spells);
   });
-  
+
   let dataServ: DataService = {
     getAllSpells: spells
   };

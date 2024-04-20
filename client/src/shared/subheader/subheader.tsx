@@ -1,6 +1,6 @@
 import { createSignal, type Component } from 'solid-js';
 
-import styles from './subheader.module.css';
+import styles from './subheader.module.scss';
 
 interface MenuItem {
     name: string;

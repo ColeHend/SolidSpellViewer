@@ -1,6 +1,6 @@
 import type { Component, JSX } from 'solid-js';
 import { children } from 'solid-js';
-import style from './body.module.css';
+import style from './body.module.scss';
 
 type BodyProps = {
     children?: JSX.Element;

@@ -1,7 +1,7 @@
 /* @refresh reload */
 import { render } from 'solid-js/web';
 
-import './index.css';
+import './index.scss';
 import App from './App';
 import { Router, Route } from '@solidjs/router';
 import { lazy } from 'solid-js';
